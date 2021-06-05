@@ -1,0 +1,84 @@
+body{
+	padding: 0px; margin: 0px; background-image: url(ok.jpg); width: 100%; height: 1000px; background-size: cover; background-repeat: no-repeat; 
+}
+nav{
+	background-color: grey; width: 100%; height: 60px; margin-top: 10px;
+} 
+nav ul{
+	display: flex; flex-direction: row; list-style: none; margin: 20px; justify-content: flex-end; background: grey;
+}
+nav ul li{
+	margin: 20px; 
+}
+ul li a{
+	font-family: Arial; border: 1px solid;  
+}
+ul li a:hover{
+	background-color: yellow;  
+
+}
+.registration{
+	width: 35%;
+	margin: auto;
+}
+.registration h1{
+	color: white;
+	text-align: center;
+	transform: translate(10px, 500px);
+	padding: 5px;
+	background-color: rgb(0, 0, 0.3);
+}
+.format{
+	position: absolute;
+	margin-top: 40%;
+	width: 100%;
+}
+
+.Contact-form{
+	max-width: 550px;
+	margin: 0 auto;
+	background: black;
+	padding: 30px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+    transform: translate(10px, -42px);
+
+}
+.input-items{
+	color: white;
+	text-align: center;
+	margin: auto;
+	padding: 3px;
+	font-size: 20px;
+	background-color: black;
+	width: 40%;
+}
+.input-items,
+	.umn{
+		width: 45%;
+	}
+	.input-items .input,
+	msg textarea{
+		margin: 10px 0;
+		background: transparent;
+		border-bottom: 2px solid;
+		padding: 10px;
+		color: #c5ecfd;
+		width: 100%;
+	}
+	
+	
+	.not{
+		background: #39b7dd;
+		text-align: center;
+		padding: 13px;
+		border-radius: 5px;
+		color: #fff;
+	}
+
+
+
+
+
+
